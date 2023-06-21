@@ -30,9 +30,7 @@ class HomePage extends StatelessWidget {
               ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Internet Not Connected'),
                 backgroundColor: Colors.red,));
             }
-            
-            
-            
+                      
 
           }
           ),
